@@ -2438,4 +2438,9 @@ module.exports = [
     source: '/docs/guides/database/sql-to-api',
     destination: '/docs/guides/api/sql-to-api',
   },
+  {
+    permanent: true,
+    source: '/docs/guides/auth/sessions',
+    destination: '/docs/guides/auth/concepts/sessions',
+  },
 ]
