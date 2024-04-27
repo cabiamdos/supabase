@@ -8,7 +8,7 @@ secret_key = "jpoaisjfdpijinzklxcpoiwPDJFAPSIiohsadfphaspdfj2342"  # Replace wit
 payload_roles = ["anon", "service_role"]
 
 
-
+print("Secret key you inputed: %s" % (secret_key))
 for payload_role in payload_roles:
   # Define your payload
   payload = {
